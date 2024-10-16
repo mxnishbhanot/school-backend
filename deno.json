@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts",
+    "watch": "deno run --allow-net --allow-env --allow-read --watch main.ts"
+  },
+  "imports": {
+  },
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  }
+}
